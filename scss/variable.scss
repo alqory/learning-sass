@@ -1,0 +1,13 @@
+
+// Sass
+$main-color:blue;
+
+// Native CSS
+:root {
+    --main-color:blue;
+}
+
+.main {
+    color: $main-color;
+    // color: var(--main-color);
+}

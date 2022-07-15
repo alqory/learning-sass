@@ -1,0 +1,21 @@
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color .9s ease-in;
+
+    // Using selector class manually
+    // .main-heading {
+    //     background-color: palegoldenrod;
+    // }
+
+    // Using empercent => &
+    & &-heading {
+        background-color: aqua;
+    }
+
+    // &:hover {
+    //     background-color: aqua;
+    // }
+    
+}
+
+// & => empercent
